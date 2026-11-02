@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEOM Panels — B2B Panel Requirement &amp; BOQ Preparation Checklist</title>
+  <style>
+    :root {
+      --forest: #0b3d2e;
+      --ivory: #f7f7f0;
+      --ink: #20352b;
+      --muted: #56665a;
+      --line: #d7dfd0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 40px 24px;
+      font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink);
+      background: var(--ivory);
+      line-height: 1.6;
+    }
+    .sheet {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      padding: 48px;
+    }
+    .sheet-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--forest);
+      margin-bottom: 32px;
+    }
+    .sheet-header img {
+      height: 84px;
+      width: auto;
+    }
+    .meta {
+      text-align: right;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    h1 {
+      font-size: 26px;
+      color: var(--forest);
+      margin: 0 0 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 12px 14px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      background: var(--ivory);
+      color: var(--forest);
+      width: 34%;
+    }
+    .toolbar {
+      max-width: 820px;
+      margin: 0 auto 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--forest);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+    }
+    .back-link {
+      color: var(--forest);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .note {
+      margin-top: 24px;
+      padding: 14px 16px;
+      background: var(--ivory);
+      font-size: 13px;
+      color: var(--muted);
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .toolbar { display: none; }
+      .sheet { border: none; padding: 0; }
+    }
+    @media (max-width: 640px) {
+      .sheet { padding: 24px; }
+      .sheet-header { flex-direction: column; }
+      .meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="/resources/downloads" class="back-link">&larr; Back to Downloads &amp; Documents</a>
+    <button type="button" class="btn" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+  <main class="sheet">
+    <header class="sheet-header">
+      <img src="/assets/logo/neom-logo-full.png" alt="NEOM Panels">
+      <div class="meta">
+        <div><strong>Document:</strong> B2B Panel Requirement Checklist</div>
+        <div><strong>Version:</strong> 1.0 · November 2026</div>
+        <div><strong>Audience:</strong> OEMs, Contractors &amp; Procurement Teams</div>
+      </div>
+    </header>
+
+    <h1>Seven Details to Define Before Requesting a Panel Quotation</h1>
+    <p>
+      Use this worksheet to prepare a clear specification before submitting your requirement to NEOM Panels. You do not need every answer before contacting us—identifying open questions early helps our team focus the technical discussion.
+    </p>
+
+    <table>
+      <tbody>
+        <tr>
+          <th>1. Intended Application</th>
+          <td>Describe what the panel will become (e.g., modular wardrobe carcass, office workstation surface, interior wall panelling, institutional seating) and the operating conditions.</td>
+        </tr>
+        <tr>
+          <th>2. Product Family &amp; Grade</th>
+          <td>Include the brand (e.g., Starwoods), product family or wording from your approved material schedule. If open for recommendation, note “Selection open”.</td>
+        </tr>
+        <tr>
+          <th>3. Dimensions &amp; Thickness</th>
+          <td>State panel length, width and thickness with explicit units (mm / ft), plus any critical machining or thickness tolerance requirements.</td>
+        </tr>
+        <tr>
+          <th>4. Quantity, Unit &amp; Frequency</th>
+          <td>Specify quantity with unit (sheets, sq. m, etc.) and indicate whether this is a one-time project order or a recurring production requirement.</td>
+        </tr>
+        <tr>
+          <th>5. Delivery Destination</th>
+          <td>Provide the city, state and any site unloading or scheduling considerations.</td>
+        </tr>
+        <tr>
+          <th>6. Required Documentation</th>
+          <td>List any technical data sheets, test scopes or project compliance documents required for your evaluation.</td>
+        </tr>
+        <tr>
+          <th>7. Target Schedule</th>
+          <td>Indicate your project evaluation stage or requested delivery window for discussion.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="note">
+      <strong>Confidentiality &amp; Procurement Note:</strong> Before attaching a BOQ or schedule to a website enquiry, remove confidential commercial pricing or restricted personal information. Submitting an enquiry does not constitute a formal tender bid, purchase order or confirmation of product eligibility.
+    </div>
+  </main>
+</body>
+</html>
