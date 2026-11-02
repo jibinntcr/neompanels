@@ -1,8 +1,9 @@
 # macOS & OS files
 .DS_Store
 
-# Dependencies
+# Dependencies & build output
 node_modules/
+dist/
 
 # Private lead storage & attachments (never commit PII or attachments)
 private_storage/
