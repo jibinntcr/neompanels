@@ -1,0 +1,12 @@
+# macOS & OS files
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Private lead storage & attachments (never commit PII or attachments)
+private_storage/
+
+# Local environment secrets
+.env
+.env.*
