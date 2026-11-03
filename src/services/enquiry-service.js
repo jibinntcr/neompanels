@@ -4,11 +4,14 @@
  */
 
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 const crypto = require('crypto');
 const { companySettings, enquiryTypes, brands } = require('../data/content');
 
-const PRIVATE_ROOT = path.join(__dirname, '..', '..', 'private_storage');
+const PRIVATE_ROOT = process.env.VERCEL
+  ? path.join(os.tmpdir(), 'neom_private_storage')
+  : path.join(__dirname, '..', '..', 'private_storage');
 const DB_DIR = path.join(PRIVATE_ROOT, 'db');
 const ATTACHMENTS_DIR = path.join(PRIVATE_ROOT, 'attachments');
 
